@@ -11,6 +11,9 @@
 <h3 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h3><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
 <h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h3><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a><br><img src="/images/vnc_server.png" alt=""></p>
 ]]></content>
+      <categories>
+        <category>问题</category>
+      </categories>
       <tags>
         <tag>问题 教程</tag>
       </tags>
@@ -38,7 +41,7 @@
 <p>[^RUNOOB]: 菜鸟教程 – 学的不仅是技术，更是梦想！！！</p>
 ]]></content>
       <categories>
-        <category>test</category>
+        <category>demo</category>
       </categories>
       <tags>
         <tag>导航</tag>
@@ -66,6 +69,9 @@
 <h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
 <h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
 ]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
       <tags>
         <tag>vim 小技巧 教程</tag>
       </tags>
@@ -86,6 +92,9 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
 <pre><code class="shell">cnpm install</code></pre>
 <p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
 ]]></content>
+      <categories>
+        <category>问题</category>
+      </categories>
       <tags>
         <tag>教程 问题</tag>
       </tags>
