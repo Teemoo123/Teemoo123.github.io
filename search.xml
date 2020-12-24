@@ -19,13 +19,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux新建软连接</title>
-    <url>/2020/12/24/Linux%E6%96%B0%E5%BB%BA%E8%BD%AF%E8%BF%9E%E6%8E%A5/</url>
-    <content><![CDATA[<h2 id="Linux新建软连接"><a href="#Linux新建软连接" class="headerlink" title="Linux新建软连接"></a>Linux新建软连接</h2><p>ln -s 源文件 目标文件</p>
-<pre><code class="shell">ln -s ~/code/ c</code></pre>
-]]></content>
-  </entry>
-  <entry>
     <title>MyFirstBlog</title>
     <url>/2020/01/26/MyFirstBlog/</url>
     <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><a id="more"></a>
@@ -56,6 +49,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/12/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>SSH key的生成.md</title>
     <url>/2020/12/24/SSH-key%E7%9A%84%E7%94%9F%E6%88%90/</url>
     <content><![CDATA[<h2 id="1-检查SSH-keys是否存在"><a href="#1-检查SSH-keys是否存在" class="headerlink" title="1.检查SSH keys是否存在"></a>1.检查SSH keys是否存在</h2><p>输入下面的命令，如果有文件id_rsa.pub 或 id_dsa.pub，则直接进入步骤3将SSH key添加到GitHub中，否则进入第二步生成SSH key</p>
@@ -72,31 +79,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/12/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <title>pages无法访问</title>
+    <url>/2020/12/24/pages%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</url>
+    <content><![CDATA[<h2 id="github-pages无法访问"><a href="#github-pages无法访问" class="headerlink" title="github pages无法访问"></a>github pages无法访问</h2><p>参考连接：<img src="https://blog.csdn.net/q764424567/article/details/108204240" alt=""></p>
+<h3 id="1-问题原因"><a href="#1-问题原因" class="headerlink" title="1.问题原因"></a>1.问题原因</h3><p>经常访问github 的小伙伴都知道，这个通常是域名解析的问题，DNS解析</p>
+<p>然后我就ping了一下这个地址：<br><img src="/images/github_pages_1.png" alt="插入图片"><br>发现DNS都被解析为127.0.0.1，怪不得无法访问呢，具体原因咱不知道，但是解决方案就很简单了</p>
+<h3 id="2-解决方案"><a href="#2-解决方案" class="headerlink" title="2.解决方案"></a>2.解决方案</h3><p>去<img src="https://www.ipaddress.com/" alt="">输入Teemoo123.github.com查询到真实IP地址<br><img src="/images/github_pages_2.png" alt="插入图片"><br>随便选一个地址，我通常选最上面的，然后修改host文件：</p>
+<p>Windows系统下，找到C:\Windows\System32\drivers\etc这个目录下的hosts文件<br><img src="/images/github_pages_3.png" alt="插入图片"><br>用文字编辑软件打开hosts文件：<br><img src="/images/github_pages_4.png" alt="插入图片"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>vim翻页命令</title>
-    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
-<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
-<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
-]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
       <tags>
-        <tag>vim 小技巧 教程</tag>
+        <tag>github 问题</tag>
       </tags>
   </entry>
   <entry>
@@ -120,6 +112,30 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
       </categories>
       <tags>
         <tag>教程 问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux新建软连接</title>
+    <url>/2020/12/24/Linux%E6%96%B0%E5%BB%BA%E8%BD%AF%E8%BF%9E%E6%8E%A5/</url>
+    <content><![CDATA[<h2 id="Linux新建软连接"><a href="#Linux新建软连接" class="headerlink" title="Linux新建软连接"></a>Linux新建软连接</h2><p>ln -s 源文件 目标文件</p>
+<pre><code class="shell">ln -s ~/code/ c</code></pre>
+]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vim翻页命令</title>
+    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
+<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
+<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim 小技巧 教程</tag>
       </tags>
   </entry>
   <entry>
