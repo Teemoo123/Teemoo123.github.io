@@ -214,6 +214,80 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://teemoo123.github.io/2020/12/24/SSH-key%E7%9A%84%E7%94%9F%E6%88%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bodatui.jpg">
+      <meta itemprop="name" content="Teemoo123">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Teemoo123">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/24/SSH-key%E7%9A%84%E7%94%9F%E6%88%90/" class="post-title-link" itemprop="url">SSH key的生成.md</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-12-24 21:50:01 / 修改时间：22:01:01" itemprop="dateCreated datePublished" datetime="2020-12-24T21:50:01+08:00">2020-12-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/blog/" itemprop="url" rel="index">
+                    <span itemprop="name">blog</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="1-检查SSH-keys是否存在"><a href="#1-检查SSH-keys是否存在" class="headerlink" title="1.检查SSH keys是否存在"></a>1.检查SSH keys是否存在</h2><p>输入下面的命令，如果有文件id_rsa.pub 或 id_dsa.pub，则直接进入步骤3将SSH key添加到GitHub中，否则进入第二步生成SSH key</p>
+<pre><code class="shell">ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist</code></pre>
+<h2 id="2-生成新的ssh-key"><a href="#2-生成新的ssh-key" class="headerlink" title="2. 生成新的ssh key"></a>2. 生成新的ssh key</h2><p>第一步：生成public/private rsa key pair<br>在命令行中输入</p>
+<pre><code class="shell">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://teemoo123.github.io/2020/12/23/vimrc-for-deeping-md/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -660,7 +734,7 @@ set nu
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-24 00:02:10" itemprop="dateModified" datetime="2020-12-24T00:02:10+08:00">2020-12-24</time>
+                <time title="修改时间：2020-12-24 22:02:27" itemprop="dateModified" datetime="2020-12-24T22:02:27+08:00">2020-12-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -711,93 +785,6 @@ set nu
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://teemoo123.github.io/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/bodatui.jpg">
-      <meta itemprop="name" content="Teemoo123">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Teemoo123">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">换电脑后重新布置hexo遇到的问题</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-12-21 22:55:47" itemprop="dateCreated datePublished" datetime="2020-12-21T22:55:47+08:00">2020-12-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-24 00:04:07" itemprop="dateModified" datetime="2020-12-24T00:04:07+08:00">2020-12-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%97%AE%E9%A2%98/" itemprop="url" rel="index">
-                    <span itemprop="name">问题</span>
-                  </a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
-<h2 id="2-npm-ERR-Unexpected-end-of-JSON-input-while-parsing-near-‘…2-3”-“name”-”hexo-re’"><a href="#2-npm-ERR-Unexpected-end-of-JSON-input-while-parsing-near-‘…2-3”-“name”-”hexo-re’" class="headerlink" title="2.npm ERR! Unexpected end of JSON input while parsing near ‘…2.3”:{“name”:”hexo-re’"></a>2.npm ERR! Unexpected end of JSON input while parsing near ‘…2.3”:{“name”:”hexo-re’</h2><p>参考链接：<a href="https://blog.csdn.net/zsl15039718107/article/details/104128166/" target="_blank" rel="noopener">https://blog.csdn.net/zsl15039718107/article/details/104128166/</a><br><img src="/images/Error_Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><pre><code class="shell">npm cache clean --force</code></pre>
-<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><pre><code class="shell">npm config set registry https://registry.npm.taobao.org/
-npm config get registry https://registry.npm.taobao.org/</code></pre>
-<p>验证时候切换淘宝镜像成功，命令行输入: npm config list<br><img src="/images/Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><pre><code class="shell">npm install</code></pre>
-<p>注意：下面走捷径啦！！！！<br>直接输入：</p>
-<pre><code class="shell">npm install --global cnpm</code></pre>
-<p>然后使用：</p>
-<pre><code class="shell">cnpm install</code></pre>
-<p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://teemoo123.github.io/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -829,7 +816,7 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-24 00:04:34" itemprop="dateModified" datetime="2020-12-24T00:04:34+08:00">2020-12-24</time>
+                <time title="修改时间：2020-12-24 22:01:16" itemprop="dateModified" datetime="2020-12-24T22:01:16+08:00">2020-12-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -857,6 +844,93 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
           <h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
 <h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
 <h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://teemoo123.github.io/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bodatui.jpg">
+      <meta itemprop="name" content="Teemoo123">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Teemoo123">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">换电脑后重新布置hexo遇到的问题</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-21 22:55:47" itemprop="dateCreated datePublished" datetime="2020-12-21T22:55:47+08:00">2020-12-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-24 22:03:47" itemprop="dateModified" datetime="2020-12-24T22:03:47+08:00">2020-12-24</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%97%AE%E9%A2%98/" itemprop="url" rel="index">
+                    <span itemprop="name">问题</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
+<h2 id="2-npm-ERR-Unexpected-end-of-JSON-input-while"><a href="#2-npm-ERR-Unexpected-end-of-JSON-input-while" class="headerlink" title="2.npm ERR! Unexpected end of JSON input while"></a>2.npm ERR! Unexpected end of JSON input while</h2><p>parsing near ‘…2.3”:{“name”:”hexo-re’<br>参考链接：<a href="https://blog.csdn.net/zsl15039718107/article/details/104128166/" target="_blank" rel="noopener">https://blog.csdn.net/zsl15039718107/article/details/104128166/</a><br><img src="/images/Error_Switch_to_Taobao_mirror.png" alt=""></p>
+<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><pre><code class="shell">npm cache clean --force</code></pre>
+<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><pre><code class="shell">npm config set registry https://registry.npm.taobao.org/
+npm config get registry https://registry.npm.taobao.org/</code></pre>
+<p>验证时候切换淘宝镜像成功，命令行输入: npm config list<br><img src="/images/Switch_to_Taobao_mirror.png" alt=""></p>
+<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><pre><code class="shell">npm install</code></pre>
+<p>注意：下面走捷径啦！！！！<br>直接输入：</p>
+<pre><code class="shell">npm install --global cnpm</code></pre>
+<p>然后使用：</p>
+<pre><code class="shell">cnpm install</code></pre>
+<p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
 
       
     </div>
@@ -907,7 +981,7 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-24 00:03:32" itemprop="dateModified" datetime="2020-12-24T00:03:32+08:00">2020-12-24</time>
+                <time title="修改时间：2020-12-24 22:01:48" itemprop="dateModified" datetime="2020-12-24T22:01:48+08:00">2020-12-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1024,20 +1098,20 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

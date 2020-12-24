@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Deepin安装VNC服务</title>
+    <url>/2020/12/21/Deepin%E5%AE%89%E8%A3%85VNC%E6%9C%8D%E5%8A%A1/</url>
+    <content><![CDATA[<h1 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h1><p>编写时间：2020-12-22 23:41:44</p>
+<p>参考链接:<a href="https://www.cnblogs.com/jiftle/p/12928697.html" target="_blank" rel="noopener">https://www.cnblogs.com/jiftle/p/12928697.html</a></p>
+<h2 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h2><h3 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h3><p>sudo apt-get update </p>
+<p>sudo apt-get install x11vnc</p>
+<h3 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h3><p>x11vnc -storepasswd</p>
+<h3 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h3><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
+<h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h3><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a><br><img src="/images/vnc_server.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>问题</category>
+      </categories>
+      <tags>
+        <tag>问题 教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MyFirstBlog</title>
     <url>/2020/01/26/MyFirstBlog/</url>
     <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><a id="more"></a>
@@ -31,44 +49,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Deepin安装VNC服务</title>
-    <url>/2020/12/21/Deepin%E5%AE%89%E8%A3%85VNC%E6%9C%8D%E5%8A%A1/</url>
-    <content><![CDATA[<h1 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h1><p>编写时间：2020-12-22 23:41:44</p>
-<p>参考链接:<a href="https://www.cnblogs.com/jiftle/p/12928697.html" target="_blank" rel="noopener">https://www.cnblogs.com/jiftle/p/12928697.html</a></p>
-<h2 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h2><h3 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h3><p>sudo apt-get update </p>
-<p>sudo apt-get install x11vnc</p>
-<h3 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h3><p>x11vnc -storepasswd</p>
-<h3 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h3><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
-<h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h3><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a><br><img src="/images/vnc_server.png" alt=""></p>
+    <title>SSH key的生成.md</title>
+    <url>/2020/12/24/SSH-key%E7%9A%84%E7%94%9F%E6%88%90/</url>
+    <content><![CDATA[<h2 id="1-检查SSH-keys是否存在"><a href="#1-检查SSH-keys是否存在" class="headerlink" title="1.检查SSH keys是否存在"></a>1.检查SSH keys是否存在</h2><p>输入下面的命令，如果有文件id_rsa.pub 或 id_dsa.pub，则直接进入步骤3将SSH key添加到GitHub中，否则进入第二步生成SSH key</p>
+<pre><code class="shell">ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist</code></pre>
+<h2 id="2-生成新的ssh-key"><a href="#2-生成新的ssh-key" class="headerlink" title="2. 生成新的ssh key"></a>2. 生成新的ssh key</h2><p>第一步：生成public/private rsa key pair<br>在命令行中输入</p>
+<pre><code class="shell">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre>
 ]]></content>
       <categories>
-        <category>问题</category>
+        <category>blog</category>
       </categories>
       <tags>
-        <tag>问题 教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>换电脑后重新布置hexo遇到的问题</title>
-    <url>/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
-<h2 id="2-npm-ERR-Unexpected-end-of-JSON-input-while-parsing-near-‘…2-3”-“name”-”hexo-re’"><a href="#2-npm-ERR-Unexpected-end-of-JSON-input-while-parsing-near-‘…2-3”-“name”-”hexo-re’" class="headerlink" title="2.npm ERR! Unexpected end of JSON input while parsing near ‘…2.3”:{“name”:”hexo-re’"></a>2.npm ERR! Unexpected end of JSON input while parsing near ‘…2.3”:{“name”:”hexo-re’</h2><p>参考链接：<a href="https://blog.csdn.net/zsl15039718107/article/details/104128166/" target="_blank" rel="noopener">https://blog.csdn.net/zsl15039718107/article/details/104128166/</a><br><img src="/images/Error_Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><pre><code class="shell">npm cache clean --force</code></pre>
-<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><pre><code class="shell">npm config set registry https://registry.npm.taobao.org/
-npm config get registry https://registry.npm.taobao.org/</code></pre>
-<p>验证时候切换淘宝镜像成功，命令行输入: npm config list<br><img src="/images/Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><pre><code class="shell">npm install</code></pre>
-<p>注意：下面走捷径啦！！！！<br>直接输入：</p>
-<pre><code class="shell">npm install --global cnpm</code></pre>
-<p>然后使用：</p>
-<pre><code class="shell">cnpm install</code></pre>
-<p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
-]]></content>
-      <categories>
-        <category>问题</category>
-      </categories>
-      <tags>
-        <tag>教程 问题</tag>
+        <tag>ssh 问题 小技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -84,20 +77,6 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>vim翻页命令</title>
-    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
-<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
-<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
-]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>vim 小技巧 教程</tag>
-      </tags>
   </entry>
   <entry>
     <title>_vimrc_for_deeping.md</title>
@@ -389,6 +368,43 @@ set nu
 ]]></content>
       <tags>
         <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vim翻页命令</title>
+    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
+<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
+<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim 小技巧 教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>换电脑后重新布置hexo遇到的问题</title>
+    <url>/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
+<h2 id="2-npm-ERR-Unexpected-end-of-JSON-input-while"><a href="#2-npm-ERR-Unexpected-end-of-JSON-input-while" class="headerlink" title="2.npm ERR! Unexpected end of JSON input while"></a>2.npm ERR! Unexpected end of JSON input while</h2><p>parsing near ‘…2.3”:{“name”:”hexo-re’<br>参考链接：<a href="https://blog.csdn.net/zsl15039718107/article/details/104128166/" target="_blank" rel="noopener">https://blog.csdn.net/zsl15039718107/article/details/104128166/</a><br><img src="/images/Error_Switch_to_Taobao_mirror.png" alt=""></p>
+<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><pre><code class="shell">npm cache clean --force</code></pre>
+<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><pre><code class="shell">npm config set registry https://registry.npm.taobao.org/
+npm config get registry https://registry.npm.taobao.org/</code></pre>
+<p>验证时候切换淘宝镜像成功，命令行输入: npm config list<br><img src="/images/Switch_to_Taobao_mirror.png" alt=""></p>
+<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><pre><code class="shell">npm install</code></pre>
+<p>注意：下面走捷径啦！！！！<br>直接输入：</p>
+<pre><code class="shell">npm install --global cnpm</code></pre>
+<p>然后使用：</p>
+<pre><code class="shell">cnpm install</code></pre>
+<p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
+]]></content>
+      <categories>
+        <category>问题</category>
+      </categories>
+      <tags>
+        <tag>教程 问题</tag>
       </tags>
   </entry>
 </search>
