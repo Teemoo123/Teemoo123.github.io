@@ -228,7 +228,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/12/24/pages%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/" class="post-title-link" itemprop="url">pages无法访问</a>
+            <a href="/2020/12/24/pages%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/" class="post-title-link" itemprop="url">github pages无法访问</a>
         </h1>
 
         <div class="post-meta">
@@ -237,10 +237,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-12-24 22:48:47 / 修改时间：23:04:12" itemprop="dateCreated datePublished" datetime="2020-12-24T22:48:47+08:00">2020-12-24</time>
+              <time title="创建时间：2020-12-24 22:48:47" itemprop="dateCreated datePublished" datetime="2020-12-24T22:48:47+08:00">2020-12-24</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-25 22:10:19" itemprop="dateModified" datetime="2020-12-25T22:10:19+08:00">2020-12-25</time>
+              </span>
 
           
 
@@ -253,11 +259,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="github-pages无法访问"><a href="#github-pages无法访问" class="headerlink" title="github pages无法访问"></a>github pages无法访问</h2><p>参考连接:<a href="https://blog.csdn.net/q764424567/article/details/108204240" target="_blank" rel="noopener">https://blog.csdn.net/q764424567/article/details/108204240</a></p>
+          <h2 id="github-github-pages无法访问"><a href="#github-github-pages无法访问" class="headerlink" title="github github pages无法访问"></a>github github pages无法访问</h2><p>参考连接:<a href="https://blog.csdn.net/q764424567/article/details/108204240" target="_blank" rel="noopener">https://blog.csdn.net/q764424567/article/details/108204240</a></p>
 <h3 id="1-问题原因"><a href="#1-问题原因" class="headerlink" title="1.问题原因"></a>1.问题原因</h3><p>经常访问github 的小伙伴都知道，这个通常是域名解析的问题，DNS解析</p>
 <p>然后我就ping了一下这个地址：<br><img src="/images/github_pages_1.png" alt="插入图片"><br>发现DNS都被解析为127.0.0.1，怪不得无法访问呢，具体原因咱不知道，但是解决方案就很简单了</p>
 <h3 id="2-解决方案"><a href="#2-解决方案" class="headerlink" title="2.解决方案"></a>2.解决方案</h3><p>去<a href="https://www.ipaddress.com/" target="_blank" rel="noopener">https://www.ipaddress.com/</a>输入Teemoo123.github.com查询到真实IP地址<br><img src="/images/github_pages_2.png" alt="插入图片"><br>随便选一个地址，我通常选最上面的，然后修改host文件：</p>
 <p>Windows系统下，找到C:\Windows\System32\drivers\etc这个目录下的hosts文件<br><img src="/images/github_pages_3.png" alt="插入图片"><br>用文字编辑软件打开hosts文件：<br><img src="/images/github_pages_4.png" alt="插入图片"></p>
+<h2 id="更新问题"><a href="#更新问题" class="headerlink" title="更新问题"></a>更新问题</h2><p>2020-12-25 22:02:44</p>
+<p>出现问题：宽带网络可以将我的teemoo123.github.io经DNS解析成正确的IP地址185.199.108.153，但手机联通网络不行，开热点给电脑也是一样解析成127.0.0.1，切换成移动卡后可以查看github pages<br>结论：运营商的DNS解析有关</p>
 
       
     </div>
@@ -857,7 +865,7 @@ set nu
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-24 22:02:27" itemprop="dateModified" datetime="2020-12-24T22:02:27+08:00">2020-12-24</time>
+                <time title="修改时间：2020-12-25 22:12:46" itemprop="dateModified" datetime="2020-12-25T22:12:46+08:00">2020-12-25</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -882,13 +890,14 @@ set nu
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h1><p>编写时间：2020-12-22 23:41:44</p>
+          <h2 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h2><p>编写时间：2020-12-22 23:41:44</p>
 <p>参考链接:<a href="https://www.cnblogs.com/jiftle/p/12928697.html" target="_blank" rel="noopener">https://www.cnblogs.com/jiftle/p/12928697.html</a></p>
-<h2 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h2><h3 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h3><p>sudo apt-get update </p>
+<h3 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h3><h4 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h4><p>sudo apt-get update</p>
 <p>sudo apt-get install x11vnc</p>
-<h3 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h3><p>x11vnc -storepasswd</p>
-<h3 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h3><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
-<h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h3><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a><br><img src="/images/vnc_server.png" alt=""></p>
+<h4 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h4><p>x11vnc -storepasswd</p>
+<h4 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h4><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
+<h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><h4 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h4><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a></p>
+<p><img src="/images/vnc_server.png" alt="图片"></p>
 
       
     </div>
