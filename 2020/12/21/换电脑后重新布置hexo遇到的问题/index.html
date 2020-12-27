@@ -48,12 +48,12 @@
   };
 </script>
 
-  <meta name="description" content="1.npm ERR! code EACCES前面加sodo命令，用管理员权限运行 2.npm ERR! Unexpected end of JSON input whileparsing near ‘…2.3”:{“name”:”hexo-re’参考链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;zsl15039718107&#x2F;article&#x2F;details&#x2F;104128166&#x2F; 1.清除缓存np">
+  <meta name="description" content="1.npm ERR! code EACCES前面加sodo命令，用管理员权限运行 2.npm ERR! Unexpected end of JSON input whileparsing near ‘…2.3”:{“name”:”hexo-re’参考链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;zsl15039718107&#x2F;article&#x2F;details&#x2F;104128166&#x2F; 1.清除缓存1n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="换电脑后重新布置hexo遇到的问题">
 <meta property="og:url" content="https://teemoo123.github.io/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="Teemoo123">
-<meta property="og:description" content="1.npm ERR! code EACCES前面加sodo命令，用管理员权限运行 2.npm ERR! Unexpected end of JSON input whileparsing near ‘…2.3”:{“name”:”hexo-re’参考链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;zsl15039718107&#x2F;article&#x2F;details&#x2F;104128166&#x2F; 1.清除缓存np">
+<meta property="og:description" content="1.npm ERR! code EACCES前面加sodo命令，用管理员权限运行 2.npm ERR! Unexpected end of JSON input whileparsing near ‘…2.3”:{“name”:”hexo-re’参考链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;zsl15039718107&#x2F;article&#x2F;details&#x2F;104128166&#x2F; 1.清除缓存1n">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://teemoo123.github.io/images/Error_code_EACCES.png">
 <meta property="og:image" content="https://teemoo123.github.io/images/Error_Switch_to_Taobao_mirror.png">
@@ -287,15 +287,19 @@
       
         <h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
 <h2 id="2-npm-ERR-Unexpected-end-of-JSON-input-while"><a href="#2-npm-ERR-Unexpected-end-of-JSON-input-while" class="headerlink" title="2.npm ERR! Unexpected end of JSON input while"></a>2.npm ERR! Unexpected end of JSON input while</h2><p>parsing near ‘…2.3”:{“name”:”hexo-re’<br>参考链接：<a href="https://blog.csdn.net/zsl15039718107/article/details/104128166/" target="_blank" rel="noopener">https://blog.csdn.net/zsl15039718107/article/details/104128166/</a><br><img src="/images/Error_Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><pre><code class="shell">npm cache clean --force</code></pre>
-<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><pre><code class="shell">npm config set registry https://registry.npm.taobao.org/
-npm config get registry https://registry.npm.taobao.org/</code></pre>
+<h3 id="1-清除缓存"><a href="#1-清除缓存" class="headerlink" title="1.清除缓存"></a>1.清除缓存</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm cache clean --force</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-切换为淘宝镜像"><a href="#2-切换为淘宝镜像" class="headerlink" title="2.切换为淘宝镜像"></a>2.切换为淘宝镜像</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org/</span><br><span class="line">npm config get registry https://registry.npm.taobao.org/</span><br></pre></td></tr></table></figure>
+
 <p>验证时候切换淘宝镜像成功，命令行输入: npm config list<br><img src="/images/Switch_to_Taobao_mirror.png" alt=""></p>
-<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><pre><code class="shell">npm install</code></pre>
+<h3 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
 <p>注意：下面走捷径啦！！！！<br>直接输入：</p>
-<pre><code class="shell">npm install --global cnpm</code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --global cnpm</span><br></pre></td></tr></table></figure>
+
 <p>然后使用：</p>
-<pre><code class="shell">cnpm install</code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure>
+
 <p>执行上面命令后，发现问题解决！！！<br><strong>最简单解决就是输入</strong> npm install –global cnpm 然后使用 cnpm install 装包<br><strong>原因分析：<br>npm官方服务器在国外，网络受阻性大、而淘宝的cnpm在国内，所以用淘宝的快就ok了</strong></p>
 
     </div>
@@ -417,20 +421,20 @@ npm config get registry https://registry.npm.taobao.org/</code></pre>
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
