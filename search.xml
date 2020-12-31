@@ -13,25 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Deepin安装VNC服务</title>
-    <url>/2020/12/21/Deepin%E5%AE%89%E8%A3%85VNC%E6%9C%8D%E5%8A%A1/</url>
-    <content><![CDATA[<h2 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h2><p>编写时间：2020-12-22 23:41:44</p>
-<p>参考链接:<a href="https://www.cnblogs.com/jiftle/p/12928697.html" target="_blank" rel="noopener">https://www.cnblogs.com/jiftle/p/12928697.html</a></p>
-<h3 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h3><h4 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h4><p>sudo apt-get update</p>
-<p>sudo apt-get install x11vnc</p>
-<h4 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h4><p>x11vnc -storepasswd</p>
-<h4 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h4><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
-<h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><h4 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h4><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a></p>
-<p><img src="/images/vnc_server.png" alt="图片"></p>
-]]></content>
-      <categories>
-        <category>问题</category>
-      </categories>
-      <tags>
-        <tag>问题 教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo不渲染.md或者.html</title>
     <url>/2020/12/27/Hexo%E4%B8%8D%E6%B8%B2%E6%9F%93-md%E6%88%96%E8%80%85-html/</url>
     <content><![CDATA[<h3 id="Hexo不渲染-md或者-html"><a href="#Hexo不渲染-md或者-html" class="headerlink" title="Hexo不渲染.md或者.html"></a>Hexo不渲染.md或者.html</h3><p><strong>参考链接：</strong> <a href="https://blog.csdn.net/ganzhilin520/article/details/79057774?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control" target="_blank" rel="noopener">CSDN阿甘的博客</a></p>
@@ -50,6 +31,25 @@
       </categories>
       <tags>
         <tag>heox 问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deepin安装VNC服务</title>
+    <url>/2020/12/21/Deepin%E5%AE%89%E8%A3%85VNC%E6%9C%8D%E5%8A%A1/</url>
+    <content><![CDATA[<h2 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h2><p>编写时间：2020-12-22 23:41:44</p>
+<p>参考链接:<a href="https://www.cnblogs.com/jiftle/p/12928697.html" target="_blank" rel="noopener">https://www.cnblogs.com/jiftle/p/12928697.html</a></p>
+<h3 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h3><h4 id="1-安装服务"><a href="#1-安装服务" class="headerlink" title="1.安装服务"></a>1.安装服务</h4><p>sudo apt-get update</p>
+<p>sudo apt-get install x11vnc</p>
+<h4 id="2-配置密码"><a href="#2-配置密码" class="headerlink" title="2.配置密码"></a>2.配置密码</h4><p>x11vnc -storepasswd</p>
+<h4 id="3-启动服务"><a href="#3-启动服务" class="headerlink" title="3.启动服务"></a>3.启动服务</h4><p>x11vnc -auth guess -once -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfbport 5900 -shared</p>
+<h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><h4 id="下载VNC"><a href="#下载VNC" class="headerlink" title="下载VNC"></a>下载VNC</h4><p>链接:<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a></p>
+<p><img src="/images/vnc_server.png" alt="图片"></p>
+]]></content>
+      <categories>
+        <category>问题</category>
+      </categories>
+      <tags>
+        <tag>问题 教程</tag>
       </tags>
   </entry>
   <entry>
@@ -102,19 +102,19 @@
     <content><![CDATA[<h2 id="PS遇到的问题与技巧"><a href="#PS遇到的问题与技巧" class="headerlink" title="PS遇到的问题与技巧"></a>PS遇到的问题与技巧</h2><h3 id="重复复制"><a href="#重复复制" class="headerlink" title="重复复制"></a>重复复制</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">先按ctrl＋T，然后du做一次复制，再按ctrl＋alt＋shift＋T即可重复复制</span><br></pre></td></tr></table></figure>
 
 <h3 id="PS遇到图片为智能对象不能编辑时怎么办？"><a href="#PS遇到图片为智能对象不能编辑时怎么办？" class="headerlink" title="PS遇到图片为智能对象不能编辑时怎么办？"></a>PS遇到图片为智能对象不能编辑时怎么办？</h3><p>通过右击需要编辑的图层，点选“栅格化图层”进行快速操作</p>
-<p><img src="/images/PS/PS1.jpg" alt="栅格化图层"></p>
+<p><img src="/images/PS/ps1.jpg" alt="栅格化图层"></p>
 <h3 id="ps怎样修改选区和参考线上显示的单位"><a href="#ps怎样修改选区和参考线上显示的单位" class="headerlink" title="ps怎样修改选区和参考线上显示的单位"></a>ps怎样修改选区和参考线上显示的单位</h3><ol>
-<li><p>打开ps软件，按快捷键ctrl+k，也可以选择编辑，首选项，点击常规<br><img src="/images/PS/PS2.jpg" alt="修改标尺单位"></p>
+<li><p>打开ps软件，按快捷键ctrl+k，也可以选择编辑，首选项，点击常规<br><img src="/images/PS/ps2.jpg" alt="修改标尺单位"></p>
 </li>
-<li><p>选择单位与标尺<br><img src="/images/PS/PS3.jpg" alt="修改标尺单位"></p>
+<li><p>选择单位与标尺<br><img src="/images/PS/ps3.jpg" alt="修改标尺单位"></p>
 </li>
-<li><p>在标尺处将单位厘米改为像素<br><img src="/images/PS/PS4.jpg" alt="修改标尺单位"></p>
+<li><p>在标尺处将单位厘米改为像素<br><img src="/images/PS/ps4.jpg" alt="修改标尺单位"></p>
 </li>
 </ol>
 <h3 id="PS中钢笔画出的是路径如何转化为选区"><a href="#PS中钢笔画出的是路径如何转化为选区" class="headerlink" title="PS中钢笔画出的是路径如何转化为选区"></a>PS中钢笔画出的是路径如何转化为选区</h3><ol>
-<li><p>选择“钢笔工具”，在上方工具栏中选择“路径”，然后在画布上画出路径。<br><img src="/images/PS/PS5.jpg" alt="路径如何转化为选区"></p>
+<li><p>选择“钢笔工具”，在上方工具栏中选择“路径”，然后在画布上画出路径。<br><img src="/images/PS/ps5.jpg" alt="路径如何转化为选区"></p>
 </li>
-<li><p>接下来按快捷键“Ctrl+enter”就可以将路径转换为选区了。<br><img src="/images/PS/PS6.jpg" alt="路径如何转化为选区"></p>
+<li><p>接下来按快捷键“Ctrl+enter”就可以将路径转换为选区了。<br><img src="/images/PS/ps6.jpg" alt="路径如何转化为选区"></p>
 </li>
 </ol>
 ]]></content>
@@ -187,6 +187,20 @@
       </tags>
   </entry>
   <entry>
+    <title>vim翻页命令</title>
+    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
+<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
+<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim 小技巧 教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>换电脑后重新布置hexo遇到的问题</title>
     <url>/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
@@ -211,20 +225,6 @@
       </categories>
       <tags>
         <tag>教程 问题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vim翻页命令</title>
-    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
-<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
-<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
-]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>vim 小技巧 教程</tag>
       </tags>
   </entry>
 </search>
