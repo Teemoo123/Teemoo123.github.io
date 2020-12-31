@@ -104,11 +104,11 @@
 <h3 id="PS遇到图片为智能对象不能编辑时怎么办？"><a href="#PS遇到图片为智能对象不能编辑时怎么办？" class="headerlink" title="PS遇到图片为智能对象不能编辑时怎么办？"></a>PS遇到图片为智能对象不能编辑时怎么办？</h3><p>通过右击需要编辑的图层，点选“栅格化图层”进行快速操作</p>
 <p><img src="/images/PS/PS1.jpg" alt="栅格化图层"></p>
 <h3 id="ps怎样修改选区和参考线上显示的单位"><a href="#ps怎样修改选区和参考线上显示的单位" class="headerlink" title="ps怎样修改选区和参考线上显示的单位"></a>ps怎样修改选区和参考线上显示的单位</h3><ol>
-<li><p>打开ps软件，按快捷键ctrl+k，也可以选择编辑，首选项，点击常规<br><img src="/images/PS/PS2.png" alt="修改标尺单位"></p>
+<li><p>打开ps软件，按快捷键ctrl+k，也可以选择编辑，首选项，点击常规<br><img src="/images/PS/PS2.jpg" alt="修改标尺单位"></p>
 </li>
-<li><p>选择单位与标尺<br><img src="/images/PS/PS3.png" alt="修改标尺单位"></p>
+<li><p>选择单位与标尺<br><img src="/images/PS/PS3.jpg" alt="修改标尺单位"></p>
 </li>
-<li><p>在标尺处将单位厘米改为像素<br><img src="/images/PS/PS4.png" alt="修改标尺单位"></p>
+<li><p>在标尺处将单位厘米改为像素<br><img src="/images/PS/PS4.jpg" alt="修改标尺单位"></p>
 </li>
 </ol>
 <h3 id="PS中钢笔画出的是路径如何转化为选区"><a href="#PS中钢笔画出的是路径如何转化为选区" class="headerlink" title="PS中钢笔画出的是路径如何转化为选区"></a>PS中钢笔画出的是路径如何转化为选区</h3><ol>
@@ -187,20 +187,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vim翻页命令</title>
-    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
-<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
-<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
-]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>vim 小技巧 教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>换电脑后重新布置hexo遇到的问题</title>
     <url>/2020/12/21/%E6%8D%A2%E7%94%B5%E8%84%91%E5%90%8E%E9%87%8D%E6%96%B0%E5%B8%83%E7%BD%AEhexo%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="1-npm-ERR-code-EACCES"><a href="#1-npm-ERR-code-EACCES" class="headerlink" title="1.npm ERR! code EACCES"></a>1.npm ERR! code EACCES</h2><p><img src="/images/Error_code_EACCES.png" alt=""><br>前面加sodo命令，用管理员权限运行</p>
@@ -225,6 +211,20 @@
       </categories>
       <tags>
         <tag>教程 问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vim翻页命令</title>
+    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
+<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
+<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim 小技巧 教程</tag>
       </tags>
   </entry>
 </search>
