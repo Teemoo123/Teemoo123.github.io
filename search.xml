@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CorelDRAW学习的思维导图</title>
+    <url>/2020/12/27/CorelDRAW%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="CorelDRAW学习的思维导图"><a href="#CorelDRAW学习的思维导图" class="headerlink" title="CorelDRAW学习的思维导图"></a>CorelDRAW学习的思维导图</h2><p><a href="/MindMapping/CorelDRAW%E5%AD%A6%E4%B9%A0.html">CorelDRAW学习.html</a></p>
+<p><img src="/images/MindMapping_image/CorelDRAW%E5%AD%A6%E4%B9%A0.jpeg" alt="CorelDRAW学习.jpg"></p>
+]]></content>
+      <categories>
+        <category>思维导图</category>
+      </categories>
+      <tags>
+        <tag>思维导图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Deepin安装VNC服务</title>
     <url>/2020/12/21/Deepin%E5%AE%89%E8%A3%85VNC%E6%9C%8D%E5%8A%A1/</url>
     <content><![CDATA[<h2 id="Deepin安装VNC服务"><a href="#Deepin安装VNC服务" class="headerlink" title="Deepin安装VNC服务"></a>Deepin安装VNC服务</h2><p>编写时间：2020-12-22 23:41:44</p>
@@ -19,16 +32,15 @@
       </tags>
   </entry>
   <entry>
-    <title>CorelDRAW学习的思维导图</title>
-    <url>/2020/12/27/CorelDRAW%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="CorelDRAW学习的思维导图"><a href="#CorelDRAW学习的思维导图" class="headerlink" title="CorelDRAW学习的思维导图"></a>CorelDRAW学习的思维导图</h2><p><a href="/MindMapping/CorelDRAW%E5%AD%A6%E4%B9%A0.html">CorelDRAW学习.html</a></p>
-<p><img src="/images/MindMapping_image/CorelDRAW%E5%AD%A6%E4%B9%A0.jpeg" alt="CorelDRAW学习.jpg"></p>
-]]></content>
+    <title>Hexo 更新Next主题</title>
+    <url>/2021/01/17/Hexo-%E6%9B%B4%E6%96%B0Next%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<p>Next GitHub地址:<a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></p>
+<h2 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd themes/next</span><br><span class="line">git pull https://github.com/theme-next/hexo-theme-next.git</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>思维导图</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>思维导图</tag>
+        <tag>Hexo 教程</tag>
       </tags>
   </entry>
   <entry>
