@@ -107,7 +107,7 @@
 <blockquote>
 <p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/">普通链接</a>。</p>
 </blockquote>
-<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/">普通链接</a><br><a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com/">https://www.mdeditor.com</a><br>[锚点链接][anchor-id]<br>[anchor-id]: <a href="https://www.mdeditor.com/">https://www.mdeditor.com/</a><br><a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 <a href="mailto:&#x74;&#x65;&#x73;&#116;&#x2e;&#x74;&#x65;&#115;&#x74;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x74;&#x65;&#x73;&#116;&#x2e;&#x74;&#x65;&#115;&#x74;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a>  <a href="mailto:&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a></p>
+<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/">普通链接</a><br><a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com/">https://www.mdeditor.com</a><br>[锚点链接][anchor-id]<br>[anchor-id]: <a href="https://www.mdeditor.com/">https://www.mdeditor.com/</a><br><a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 <a href="mailto:&#116;&#x65;&#x73;&#x74;&#46;&#116;&#x65;&#x73;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#116;&#x65;&#x73;&#x74;&#46;&#116;&#x65;&#x73;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a>  <a href="mailto:&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a></p>
 <blockquote>
 <p>@pandao</p>
 </blockquote>
@@ -410,6 +410,18 @@
       </tags>
   </entry>
   <entry>
+    <title>VS下使用VIM,Visual Studio安装VSvim插件配置及使用</title>
+    <url>/2021/01/26/VS%E4%B8%8B%E4%BD%BF%E7%94%A8VIM-Visual-Studio%E5%AE%89%E8%A3%85VSvim%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>链接:<a href="https://www.shangmayuan.com/a/3db098b18c134daf957d0b23.html">https://www.shangmayuan.com/a/3db098b18c134daf957d0b23.html</a></p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows快捷键</title>
     <url>/2021/01/13/Windows%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
     <content><![CDATA[<h2 id="Windows快捷键"><a href="#Windows快捷键" class="headerlink" title="Windows快捷键"></a>Windows快捷键</h2><p><a href="/MindMapping/Window%E5%BF%AB%E6%8D%B7%E9%94%AE.html">Windows快捷键.html</a></p>
@@ -491,7 +503,7 @@
 <p><img src="/images/note/VNCconnect.jpg" alt="VNC"></p>
 <h4 id="Logisim"><a href="#Logisim" class="headerlink" title="Logisim"></a>Logisim</h4><p>Logisim是一种用于设计和模拟数字逻辑电路的教育工具。凭借其简单的工具栏界面和构建它们时的电路仿真，它非常简单，有助于学习与逻辑电路相关的最基本概念。由于能够从较小的子电路构建更大的电路，并通过鼠标拖动来绘制电线束，因此可以使用Logisim来设计和仿真用于相关课程的教学目的</p>
 <p>Logisim:<a href="http://www.cburch.com/logisim/download.html">http://www.cburch.com/logisim/download.html</a></p>
-<p><img src="/images/note/Logisim.jpg" alt="Logisim"></p>
+<p><img src="/images/note/logisim.jpg" alt="Logisim"></p>
 <h4 id="vimawesome"><a href="#vimawesome" class="headerlink" title="vimawesome"></a>vimawesome</h4><p>vimawesome:<a href="https://vimawesome.com/">https://vimawesome.com/</a></p>
 <p><img src="/images/note/vimawesome.jpg" alt="vimawesome"></p>
 <h4 id="awesome-vim"><a href="#awesome-vim" class="headerlink" title="awesome-vim"></a>awesome-vim</h4><p>awesome-vim:<a href="https://github.com/akrawchyk/awesome-vim">https://github.com/akrawchyk/awesome-vim</a></p>
@@ -620,6 +632,8 @@
     <url>/2021/01/20/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99/</url>
     <content><![CDATA[<h2 id="实用工具"><a href="#实用工具" class="headerlink" title="实用工具"></a>实用工具</h2><h4 id="在线工具"><a href="#在线工具" class="headerlink" title="在线工具"></a>在线工具</h4><p>在线工具:<a href="https://tool.lu/">https://tool.lu/</a></p>
 <p><img src="/images/other/tool_lu.png" alt="在线工具"></p>
+<h4 id="52-Unicode-Unicode编码表"><a href="#52-Unicode-Unicode编码表" class="headerlink" title="52 Unicode - Unicode编码表"></a>52 Unicode - Unicode编码表</h4><p>Unicode编码表:<a href="http://www.52unicode.com/">http://www.52unicode.com/</a></p>
+<p><img src="/images/other/52unicode.jpg" alt="Unicode编码表"></p>
 <h4 id="菜鸟教程"><a href="#菜鸟教程" class="headerlink" title="菜鸟教程"></a>菜鸟教程</h4><p>菜鸟教程:<a href="https://c.runoob.com/">https://c.runoob.com/</a></p>
 <p><img src="/images/other/runoob.png" alt="菜鸟教程"></p>
 <h4 id="txttool"><a href="#txttool" class="headerlink" title="txttool"></a>txttool</h4><p>txttool:<a href="http://www.txttool.com/">http://www.txttool.com/</a></p>
@@ -652,6 +666,8 @@
 <p>2.选择 Advanced Options  再选择 Resolution</p>
 <p>3.选择想要的分辨率，确定</p>
 <p>4.重启</p>
+<h4 id="Code-server搭建web-IDE"><a href="#Code-server搭建web-IDE" class="headerlink" title="Code-server搭建web IDE"></a>Code-server搭建web IDE</h4><p>链接:<a href="https://www.cnblogs.com/billyme/p/13769847.html">https://www.cnblogs.com/billyme/p/13769847.html</a></p>
+<p>github地址:<a href="https://github.com/cdr/code-server/releases">https://github.com/cdr/code-server/releases</a></p>
 ]]></content>
       <categories>
         <category>树莓派</category>
