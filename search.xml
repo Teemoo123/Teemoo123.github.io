@@ -107,7 +107,7 @@
 <blockquote>
 <p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/">普通链接</a>。</p>
 </blockquote>
-<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/">普通链接</a><br><a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com/">https://www.mdeditor.com</a><br>[锚点链接][anchor-id]<br>[anchor-id]: <a href="https://www.mdeditor.com/">https://www.mdeditor.com/</a><br><a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 <a href="mailto:&#116;&#x65;&#x73;&#x74;&#46;&#116;&#x65;&#x73;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#116;&#x65;&#x73;&#x74;&#46;&#116;&#x65;&#x73;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a>  <a href="mailto:&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#119;&#119;&#x77;&#64;&#118;&#105;&#x70;&#x2e;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a></p>
+<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/">普通链接</a><br><a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com/">https://www.mdeditor.com</a><br>[锚点链接][anchor-id]<br>[anchor-id]: <a href="https://www.mdeditor.com/">https://www.mdeditor.com/</a><br><a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 <a href="mailto:&#116;&#101;&#x73;&#116;&#x2e;&#116;&#x65;&#x73;&#116;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#116;&#101;&#x73;&#116;&#x2e;&#116;&#x65;&#x73;&#116;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a>  <a href="mailto:&#x77;&#119;&#119;&#64;&#118;&#105;&#112;&#x2e;&#113;&#113;&#46;&#x63;&#x6f;&#109;">&#x77;&#119;&#119;&#64;&#118;&#105;&#112;&#x2e;&#113;&#113;&#46;&#x63;&#x6f;&#109;</a></p>
 <blockquote>
 <p>@pandao</p>
 </blockquote>
@@ -475,20 +475,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vim翻页命令</title>
-    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
-<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
-<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
-]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>vim 小技巧 教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>专业软件</title>
     <url>/2021/01/22/%E4%B8%93%E4%B8%9A%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h3 id="SVN"><a href="#SVN" class="headerlink" title="SVN"></a>SVN</h3><h4 id="Subversion"><a href="#Subversion" class="headerlink" title="Subversion"></a>Subversion</h4><p>Subversion:<a href="http://subversion.apache.org/">http://subversion.apache.org/</a></p>
@@ -717,6 +703,33 @@
       </categories>
       <tags>
         <tag>教程 小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vim翻页命令</title>
+    <url>/2020/12/21/vim%E7%BF%BB%E9%A1%B5%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="vim翻页命令"><a href="#vim翻页命令" class="headerlink" title="vim翻页命令"></a>vim翻页命令</h2><h3 id="整页翻"><a href="#整页翻" class="headerlink" title="整页翻"></a>整页翻</h3><p>ctrl+f(forword)<br>ctrl+d(backword)</p>
+<h3 id="翻半页"><a href="#翻半页" class="headerlink" title="翻半页"></a>翻半页</h3><p>ctrl+d(down)<br>ctrl+u(up)</p>
+<h3 id="滚一行"><a href="#滚一行" class="headerlink" title="滚一行"></a>滚一行</h3><p>ctrl+e<br>ctrl+y</p>
+]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>vim 小技巧 教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习视频教程</title>
+    <url>/2021/04/17/%E5%AD%A6%E4%B9%A0%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="手机摄影教程"><a href="#手机摄影教程" class="headerlink" title="手机摄影教程"></a>手机摄影教程</h3><p>贾树森手机摄影:<a href="https://www.bilibili.com/video/BV1AE411r77A?p=1">https://www.bilibili.com/video/BV1AE411r77A?p=1</a></p>
+<p><img src="/images/study/Mobile_Photography.jpg" alt="贾树森手机摄影"></p>
+]]></content>
+      <categories>
+        <category>学习教程</category>
+      </categories>
+      <tags>
+        <tag>学习教程</tag>
       </tags>
   </entry>
 </search>
